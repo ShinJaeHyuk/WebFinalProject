@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link href="resources/css/bootstrap.min.css" rel="stylesheet">
+<link href="resources/css/Personalinfo.css" rel="stylesheet">
+</head>
+      
+<body>
+<div class = "container py-3">	
+	<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom pb-3 mb-4">	
+	  <div class="container-fluid">
+	  	<a class="navbar-brand" href="#">PortPolio</a>		    
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav nav-tabs me-auto mb-2 mb-lg-0">
+	        <li class="nav-item">
+	          <a class="nav-link"  href="./About_Me.html">Information</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" href="./Arduino.html">Arduino & Raspberry</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="./Game.html" >Game</a>
+	        </li>
+	        
+	      </ul>
+	    </div>    
+	  </div>
+	</nav>
+	<div class = "text-center mt-5 mb-5 h-50 px-3">
+		<h2>Raspberry</h2>
+		<p class = "lead">라즈베리파이로 만든 mp3입니다. 팀 프로젝트의 결과물로 만들었고, 앞뒤로 넘어가는 기능과 종료 기능을 포함하고 있습니다.</p> 
+		<video src="resources/video/Raspberry.mov" width="600" height="300" controls></video>
+		<p class = "lead">위 mp3의 설계도입니다. Rhino를 이용해 제작하였습니다.</p>
+		<img src = "resources/img/Rhino.png" width="400" height="200">
+		
+		<h2>Arduino</h2>
+		<div class = "mb-8">
+			<p class = "lead">아두이노로 만든 무드등입니다. 개인 프로젝트의 결과물로 만들었고, 근접 센서를 이용해 조명이 켜지면 시간이 지남에 따라 3색 LED가 색이 섞이면서 변화합니다.</p>
+			<video src="resources/video/MoodLight.mp4" width="600" height="300" controls></video>
+		</div>
+		<div class = "mb-8">
+			<p class = "lead">아두이노로 만든 스마트 조명입니다. 팀 프로젝트의 결과물로 만들었고, 적외선 센서를 이용해 옷장이 열리면 자동으로 감지해 불을 켜고, wifi모듈을 이용해 날씨와 기온을 받아와 날씨를 보여주고 그에 맞는 옷을 추천해줍니다.</p>	
+			<video src="resources/video/Led.mp4" width="600" height="300" controls></video>
+		</div>
+	 </div>      			
+	
+	<footer class = "pt-4 my-md-5 pt-md-5 border-top">
+		<p>Cover template for <a href="#">Bootstrap</a>, by <a href="#">@JaehyukShin</a></p>
+	</footer>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
